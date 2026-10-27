@@ -1,0 +1,28 @@
+Package: BayesianWinRatio
+Type: Package
+Title: Performing Bayesian Futility Monitoring Using the Win Ratio Approach for Multiple Time-to-event Endpoints
+Version: 1.0
+Date: 2024-09-18
+Authors@R: person(given = "Xinran",
+           family = "Huang",
+           role = c("aut", "cre"),
+           email = "huangxr.2019@gmail.com",
+           comment = c(ORCID = "0000-0002-8126-9735"))
+Description: This package performs Bayesian futility monitoring using the win ratio approach based on the manuscript "The Win Ratio Approach in Bayesian Monitoring for Two-Arm Phase II Clinical Trial Designs with Multiple Time-to-Event Endpoints".
+License: MIT + file LICENSE
+Imports: 
+    MASS,
+    Rcpp,
+    stats,
+    survival
+LinkingTo: Rcpp, RcppDist, RcppArmadillo
+LazyData: true  
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Suggests: 
+    knitr,
+    rmarkdown,
+    parallel
+Depends: 
+    R (>= 2.10)

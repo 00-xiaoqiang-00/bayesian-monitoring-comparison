@@ -1,0 +1,64 @@
+{
+  "scenario": "H1-standard",
+  "integration_grid_points": 20001,
+  "case_configurations": [
+    {
+      "case": "survival_colon",
+      "seed": "2026080100",
+      "hr_batches": "12",
+      "hr_n_per_arm_per_batch": "100000",
+      "wr_batches": "20",
+      "wr_pairs_per_batch": "200000",
+      "tau_rmst_months": "60",
+      "tau_rmut_months": "60",
+      "rmut_weight_recurrence_state": "0.5"
+    },
+    {
+      "case": "OAK",
+      "seed": "2026080200",
+      "hr_batches": "12",
+      "hr_n_per_arm_per_batch": "100000",
+      "wr_batches": "20",
+      "wr_pairs_per_batch": "200000",
+      "tau_rmst_months": "18",
+      "tau_rmut_months": "18",
+      "rmut_weight_recurrence_state": "0.5"
+    },
+    {
+      "case": "KEYNOTE-598",
+      "seed": "2026080300",
+      "hr_batches": "12",
+      "hr_n_per_arm_per_batch": "100000",
+      "wr_batches": "20",
+      "wr_pairs_per_batch": "200000",
+      "tau_rmst_months": "12",
+      "tau_rmut_months": "18",
+      "rmut_weight_recurrence_state": "0.5"
+    },
+    {
+      "case": "IMpower131",
+      "seed": "2026080400",
+      "hr_batches": "12",
+      "hr_n_per_arm_per_batch": "100000",
+      "wr_batches": "20",
+      "wr_pairs_per_batch": "200000",
+      "tau_rmst_months": "18",
+      "tau_rmut_months": "18",
+      "rmut_weight_recurrence_state": "0.5"
+    }
+  ],
+  "saved_result": {
+    "filename": "H1_standard_true_estimands.csv",
+    "sha256": "e676cf8410f0b132aa231806be9ae55265807c4b613052fddeff3e691de94b5a"
+  },
+  "portable_script": {
+    "path": "code/estimands/compute_dgm_estimands.py",
+    "sha256": "fdf0d9e08fe79efe44b86cea6028910a2a92e4cb051df75d51aca36645a8a404"
+  },
+  "definitions": {
+    "WR": "IPCW-adjusted death-prioritized population pairwise win ratio under the final trial process",
+    "Cox_HR": "Equal-allocation marginal Cox partial-likelihood projection for the first composite event under the final trial process",
+    "RMST": "Difference of integrated composite-event survival through the fixed method-specific tau",
+    "RMUT": "Difference of integrated (1-w)*death survival + w*composite-event survival, with w=0.5"
+  }
+}

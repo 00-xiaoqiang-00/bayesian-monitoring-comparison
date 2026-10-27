@@ -1,0 +1,5 @@
+case_key	case	project_root	case_id	N_max	interim_counts	c_F	gamma_E	eta_interim	eta_final	calibration_H0_T1E	calibration_H1_power	calibration_H0_PET	calibration_H0_ESS	calibration_H1_PET	calibration_H1_ESS	selection_rule	calibration_replicates	parameter_status	locked_at
+IMpower131	IMpower131	<PROJECT_ROOT>/code/vendor/bayesian_win_ratio	IMpower131	680	272/408/544	0.875	3.05	1	1	0.0500	0.9874	0.4098	612.4624	0.0001	679.9864	T1E=0.0500;Power>=0.80;c_F>=0.85;min_H0_ESS	10000	LOCKED	2026-08-15
+KEYNOTE598	KEYNOTE-598	<PROJECT_ROOT>/code/vendor/bayesian_win_ratio	keynote598	568	228/340/454	0.865	1.85	1	1	0.0500	0.8645	0.6169	461.6724	0.0267	564.2400	T1E=0.0500;Power>=0.80;c_F>=0.85;min_H0_ESS	10000	LOCKED	2026-08-15
+OAK	OAK	<PROJECT_ROOT>/code/vendor/bayesian_win_ratio	OAK_A_ITT	850	340/510/680	0.875	3.40	1	1	0.0500	0.9989	0.3686	776.8490	0.0001	849.9830	T1E=0.0500;Power>=0.80;c_F>=0.85;min_H0_ESS	10000	LOCKED	2026-08-15
+survival_colon	survival_colon	<PROJECT_ROOT>/code/vendor/bayesian_win_ratio	survival_colon	620	248/372/496	0.850	1.862	1	1	0.0500	0.9996	0.6236	514.8728	0.0001	619.9876	fine_grid_T1E=0.0500;Power>=0.80;c_F>=0.85;min_H0_ESS	10000	LOCKED	2026-08-15

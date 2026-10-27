@@ -1,0 +1,2 @@
+case	candidate_id	c	gamma	H0_T1E	H0_PET	H0_ESS	H1_Power	H1_PET	H1_ESS	boundary	status	eligible_n	near_n
+IMpower	1310	0.883	0.015	0.05	0.9228	323.068	0.895	0.105	637.84	FALSE	NEAR_OPTIMAL_2SE	127	1

@@ -1,0 +1,2 @@
+case	candidate_id	c	gamma	H0_T1E	H0_PET	H0_ESS	H1_Power	H1_PET	H1_ESS	boundary	status	eligible_n	near_n
+survival_colon	1330	0.893	0.015	0.05	0.9187	292.9996	0.9038	0.096	584.6352	FALSE	NEAR_OPTIMAL_2SE	155	1

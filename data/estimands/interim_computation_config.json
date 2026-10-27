@@ -1,0 +1,25 @@
+{
+  "scenarios": [
+    "H1-standard",
+    "H1-observed"
+  ],
+  "target": "Treatment-minus-control RMST and RMUT contrasts at the method-specific scheduled restriction windows.",
+  "units": "months",
+  "saved_result": {
+    "path": "data/estimands/interim_true_estimands.csv",
+    "sha256": "12b3c2416662d986d6494938ef0aa3315a5bc7216f5ed621bc9e68274e5fd139",
+    "rows": 32,
+    "numerical_method": "Bivariate-lognormal survival integration using 1500 trapezoidal intervals."
+  },
+  "portable_script": {
+    "path": "code/estimands/compute_interim_estimands.py",
+    "sha256": "2f9fcdd21065c64c1fa50fa2d4e21b088897113664482adf54054ba3bb5976bf",
+    "numerical_method": "Deterministic conditional-normal restricted-mean integration with analytic OS restricted means."
+  },
+  "input_sha256": {
+    "DGM_all_scenarios.csv": "3e415795420431d958271d32dfea6463e8d420fcf6adf9b207c641599ebffd40",
+    "trial_process.csv": "78dfeca807d618ec3419d8819dc22533e8027de62d653ba368ccf91807e75c9c",
+    "四案例逐次分析安排.csv": "08953509266351ba2b5eab943813a5839593f29af04157f145a88a37ccbb334b"
+  },
+  "note": "The saved grid integral and the conditional-normal quadrature evaluate the same DGM target. Numerical uncertainty excludes uncertainty from the source trial data, fitted DGM parameters, and structural assumptions."
+}

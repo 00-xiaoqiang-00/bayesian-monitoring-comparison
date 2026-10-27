@@ -1,0 +1,2 @@
+case	candidate_id	c	gamma	H0_T1E	H0_PET	H0_ESS	H1_Power	H1_PET	H1_ESS	boundary	status	eligible_n	near_n
+OAK	2015	0.8545	0.025	0.05	0.9149	409.751	0.9173	0.0827	808.52	FALSE	NEAR_OPTIMAL_2SE	148	1

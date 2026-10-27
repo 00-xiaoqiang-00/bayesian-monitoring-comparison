@@ -1,0 +1,43 @@
+case_name: OAK_A_ITT
+trial_name: Atezolizumab versus docetaxel in patients with previously treated non-small-cell lung cancer (OAK)
+analysis_set: A_ITT
+population: intention-to-treat primary efficacy population
+experimental_arm: Atezolizumab
+control_arm: Docetaxel
+
+coordinate_files:
+- ../inputs/OAK/OAK_A_ITT_pfs_treatment.csv
+- ../inputs/OAK/OAK_A_ITT_pfs_control.csv
+- ../inputs/OAK/OAK_A_ITT_os_treatment.csv
+- ../inputs/OAK/OAK_A_ITT_os_control.csv
+
+OS:
+  trisk = c(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26)
+  nrisk_trt = c(425, 407, 382, 363, 342, 326, 305, 279, 260, 248, 234, 223, 218, 205, 198, 188, 175, 163, 157, 141, 116, 74, 54, 41, 28, 15, 4)
+  nrisk_ctrl = c(425, 390, 365, 336, 311, 286, 263, 236, 219, 195, 179, 168, 151, 140, 132, 123, 116, 104, 98, 90, 70, 51, 37, 28, 16, 6, 3)
+  reported_median_months_trt = 13.8
+  reported_median_months_ctrl = 9.6
+  death_events_trt = 271
+  death_events_ctrl = 298
+  reported_HR = 0.73
+  reported_HR_95CI = 0.62 to 0.87
+
+PFS:
+  trisk = c(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24)
+  nrisk_trt = c(425, 395, 243, 190, 181, 139, 128, 119, 111, 99, 92, 80, 75, 64, 59, 53, 51, 49, 45, 29, 22, 12, 9, 7, 2)
+  nrisk_ctrl = c(425, 385, 283, 223, 198, 142, 110, 91, 81, 60, 50, 41, 38, 29, 27, 23, 19, 17, 16, 13, 11, 5, 4, 2, 2)
+  reported_median_months_trt = 2.8
+  reported_median_months_ctrl = 4.0
+  progression_or_death_events_trt = 380
+  progression_or_death_events_ctrl = 375
+  reported_HR = 0.95
+  reported_HR_95CI = 0.82 to 1.10
+
+format_notes:
+- CSV files have no header and contain time_months,survival_probability_0_to_1.
+- PFS was extracted from the original embedded color image in the supplement.
+- OS was extracted from the high-resolution main-report page.
+- Sampling is approximately one coordinate per horizontal source pixel.
+- Curves were constrained to be non-increasing after color segmentation.
+- The apparent OS median read directly from plotted pixels may differ slightly from the reported Kaplan-Meier median; use the reported medians above as reconstruction validation targets.
+- Lancet Figure 2A prints 263 at month 3 for atezolizumab. The value 363 used here is verified against FDA CDTL review Figure 1 (PDF page 13; printed page 12): https://www.accessdata.fda.gov/drugsatfda_docs/nda/2016/761041Orig1s000CrossR.pdf#page=13 .

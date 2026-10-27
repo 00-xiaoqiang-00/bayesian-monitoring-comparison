@@ -1,0 +1,64 @@
+Trial / article
+===============
+Trial name: KEYNOTE-598
+Registration: NCT03302234
+Article: Pembrolizumab Plus Ipilimumab or Placebo for Metastatic Non-Small-Cell Lung Cancer With PD-L1 Tumor Proportion Score >= 50%: Randomized, Double-Blind Phase III KEYNOTE-598 Study
+Population: Intention-to-treat population; previously untreated metastatic NSCLC with PD-L1 tumor proportion score >= 50% and no sensitizing EGFR/ALK alteration
+Experimental group: Pembrolizumab + ipilimumab (n = 284)
+Control group: Pembrolizumab + placebo (n = 284)
+Data cutoff: September 1, 2020
+Median follow-up: 20.6 months (range, 12.4-31.7)
+
+OS (overall survival)
+=====================
+trisk = c(0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33)
+nrisk_trt = c(284, 245, 223, 204, 180, 146, 100, 62, 37, 10, 0, 0)
+nrisk_ctrl = c(284, 252, 230, 215, 192, 154, 111, 77, 41, 15, 2, 0)
+
+Reported median OS (months):
+  Experimental = 21.4 (95% CI, 16.6 to not reached)
+  Control = 21.9 (95% CI, 18.0 to not reached)
+
+Death events:
+  Experimental = 137/284 (48.2%)
+  Control = 135/284 (47.5%)
+
+OS hazard ratio = 1.08 (95% CI, 0.85-1.37); P = .74
+Reported 12-month OS = 63.6% (experimental), 67.9% (control)
+
+PFS (progression-free survival)
+================================
+trisk = c(0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33)
+nrisk_trt = c(284, 189, 146, 117, 99, 65, 36, 19, 9, 1, 0, 0)
+nrisk_ctrl = c(284, 198, 157, 124, 104, 75, 43, 20, 11, 4, 1, 0)
+
+Reported median PFS (months):
+  Experimental = 8.2 (95% CI, 6.0-10.5)
+  Control = 8.4 (95% CI, 6.3-10.5)
+
+Progression or death events:
+  Experimental = 188/284 (66.2%)
+  Control = 184/284 (64.8%)
+
+PFS hazard ratio = 1.06 (95% CI, 0.86-1.30); P = .72
+Reported 12-month PFS = 41.3% (experimental), 42.1% (control)
+
+Coordinate files
+================
+../inputs/KEYNOTE-598/KEYNOTE598_pfs_treatment.csv
+../inputs/KEYNOTE-598/KEYNOTE598_pfs_control.csv
+../inputs/KEYNOTE-598/KEYNOTE598_os_treatment.csv
+../inputs/KEYNOTE-598/KEYNOTE598_os_control.csv
+
+The CSV files are headerless. Column 1 is time in months and column 2 is the
+survival probability on the 0-1 scale. Curves were digitized from Figure 2A
+(OS) and Figure 2C (PFS) using exact vector-rendered line colors at 600 dpi,
+with dense horizontal-pixel sampling, censor-mark suppression, and monotonicity
+enforcement.
+
+Digitization checks against reported values
+============================================
+Estimated median OS: 21.50 months (experimental), 21.83 months (control)
+Estimated 12-month OS: 63.56% (experimental), 67.88% (control)
+Estimated median PFS: 8.16 months (experimental), 8.42 months (control)
+Estimated 12-month PFS: 41.26% (experimental), 42.29% (control)

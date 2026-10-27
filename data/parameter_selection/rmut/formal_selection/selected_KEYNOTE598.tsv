@@ -1,0 +1,2 @@
+case	candidate_id	c	gamma	H0_T1E	H0_PET	H0_ESS	H1_Power	H1_PET	H1_ESS	boundary	status	eligible_n	near_n
+KEYNOTE598	31204	0.971	0.405	0.05	0.8683	309.1858	0.8186	0.177	515.1214	FALSE	NEAR_OPTIMAL_2SE	69	1
