@@ -1,0 +1,118 @@
+[
+  {
+    "snapshot": "../../common/dgm/IMpower_shared.R",
+    "sha256": "dd1a5b37889a883241c8ebb5890e6a88c861c807f5f67ac737f9aad3d9ba6ba2"
+  },
+  {
+    "snapshot": "../../common/dgm/KEYNOTE598_shared.R",
+    "sha256": "2af29600c53c419a43cbea6bf5c7daaf7cd2755c1e1691a47af4b15ff0846fc9"
+  },
+  {
+    "snapshot": "../../common/dgm/OAK_shared.R",
+    "sha256": "d2838d03c9c20100d12b068b05d45a7d6fd206923e764b8cd9f6bcfdc3b9396b"
+  },
+  {
+    "snapshot": "../../common/dgm/survival_colon_shared.R",
+    "sha256": "be30e111e56193f365ab20ae4c93c8163968d94aae1281da4db091a4456b15bd"
+  },
+  {
+    "snapshot": "../../common/rho/rho_sensitivity_km_target_parameters.csv",
+    "sha256": "d0b94f6face3e7b6e2c36aca9853a2920c59b4bd144d46ab88dccdfdd29aba6a"
+  },
+  {
+    "snapshot": "../../common/rho/rho_sensitivity_parameter_helper.R",
+    "sha256": "13310de6f2be108d436af20eda8e8a3f54bc4416e8eb7bc72b6c6820c9b29a16"
+  },
+  {
+    "snapshot": "../../vendor/bayesian_win_ratio/cases/IMpower131/config.R",
+    "sha256": "b1144ec0f4831251be3a0f61ae17aea5d30c008757aa17394671f1a89eb63a24"
+  },
+  {
+    "snapshot": "../../vendor/bayesian_win_ratio/cases/keynote598/config.R",
+    "sha256": "0b80b98522176782982d84507d5ce9cf53eca0a9b1e73fa28fb198e2474fe536"
+  },
+  {
+    "snapshot": "../../vendor/bayesian_win_ratio/cases/OAK_A_ITT/config.R",
+    "sha256": "9e2b91e412c17f3b15ba1291a0029094987bb470814dfdd50b45cf9feed65933"
+  },
+  {
+    "snapshot": "../../vendor/bayesian_win_ratio/cases/survival_colon/config.R",
+    "sha256": "9a45c797ed4ccce14fd7acdf866f8cfb8f3d220f7dfe4e8f877f7575c34f8b04"
+  },
+  {
+    "snapshot": "../../vendor/bayesian_win_ratio/engine/DESCRIPTION",
+    "sha256": "a932fe2ddc66ef4ac4e5ab1bb222cd887004cf04d15e31b84c651aa5d33b3bdf"
+  },
+  {
+    "snapshot": "../../vendor/bayesian_win_ratio/engine/LICENSE",
+    "sha256": "81cdafc98b116f8e4202a87ad40e1a6b161b1683065beb2f2106fa8f59319454"
+  },
+  {
+    "snapshot": "../../vendor/bayesian_win_ratio/engine/LICENSE.md",
+    "sha256": "c1bcd6c2a1f17dd0affd4a591ae2b8156fe02bef18ee90c682f787084ead29cc"
+  },
+  {
+    "snapshot": "../../vendor/bayesian_win_ratio/engine/R/RcppExports.R",
+    "sha256": "53e9e3966c7f92c8eea771a2c30e1b2466043fd44654e25158f0d68d15e87c51"
+  },
+  {
+    "snapshot": "../../vendor/bayesian_win_ratio/engine/src/RcppExports.cpp",
+    "sha256": "bb47574b309294179267e79d9f0416eb60952e92e09613a98050cb8f5068a07d"
+  },
+  {
+    "snapshot": "../../vendor/bayesian_win_ratio/engine/src/update_theta_univariate_v3.cpp",
+    "sha256": "10692fc1953bc5ac1d39bd2c1757d6a2ee56e6c98f5475d434acfb82628a4174"
+  },
+  {
+    "snapshot": "../../vendor/bayesian_win_ratio/engine/src/update_theta_V9.cpp",
+    "sha256": "41a332a79bd72485abd5e467486c467b140f3085b58a499fca4c1fd5c0a45f2b"
+  },
+  {
+    "snapshot": "../../vendor/bayesian_win_ratio/engine/src/winratio.cpp",
+    "sha256": "e83fa859cea0014dd4634033075574f125e35d0e27f1432512b60c8582b946ee"
+  },
+  {
+    "snapshot": "audit_winratio_rho.R",
+    "sha256": "55335a01574afdda2fb860301b4f8461f0dd64c0ba8e6c4b486da1d3f14cfb1f"
+  },
+  {
+    "snapshot": "preflight_winratio_rho.R",
+    "sha256": "d2a16ddb84a421034e9c9a4bd6dda6d96308a953df242c5c1705f1ecde6648cd"
+  },
+  {
+    "snapshot": "prepare_runtime.R",
+    "sha256": "ecad453ab4afea4cb29706918753d1a66e4011e093a088b244684254c54839de"
+  },
+  {
+    "snapshot": "README.md",
+    "sha256": "70bf2b04d0848a6e863407416478834befba5009c7d4adbcd6aa51c581895712"
+  },
+  {
+    "snapshot": "rho_sensitivity_km_target_acceptance.csv",
+    "sha256": "f5c59a5d20945dcfe380b9939bf6ac92a330f88a1eede51b05dd10941acb205a"
+  },
+  {
+    "snapshot": "run_winratio_rho.sh",
+    "sha256": "b94ca3a4e7b420755a4a374f491edddc0e48413ab5c3d63be460722bf9001ca6"
+  },
+  {
+    "snapshot": "shared_model/LOCKED_PARAMETER_MANIFEST.tsv",
+    "sha256": "c178688faaf41009536795c19e0c748bbaa37322d76cad836fe5f3f43e303fea"
+  },
+  {
+    "snapshot": "shared_model/win_ratio_final.R",
+    "sha256": "e41faabb812d3272b80fe12002911ce007f0a6327ba8256542f27cb8e442485e"
+  },
+  {
+    "snapshot": "validate_winratio_rho.R",
+    "sha256": "6fb8445274f7770b584c4689d9aba626a121bfb33c298e85cfbdef3bb7e748c7"
+  },
+  {
+    "snapshot": "verify_runtime_sources.R",
+    "sha256": "ed472b78ea03d8057279f7afd6103f2e93b73275c954736d412482e542169a07"
+  },
+  {
+    "snapshot": "winratio_rho_common.R",
+    "sha256": "935042aef881cb8e5ca6f30899fd0114d4ba88e5fc48b4b85d74ab3678bc1c7a"
+  }
+]

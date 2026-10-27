@@ -1,0 +1,13 @@
+case_key	scenario	data_seed_base	model_seed_base	seed_namespace	data_seed_formula	model_seed_formula	look_code_50	look_code_80	look_code_final	smoke_offset	status
+IMpower131	H0_null	111000000	561000000	SEED-IV-V1-20260731	base + replicate_id	base + replicate_id*10 + look_code	5	3	9	810000000	LOCKED
+IMpower131	H1_calibration	112000000	562000000	SEED-IV-V1-20260731	base + replicate_id	base + replicate_id*10 + look_code	5	3	9	810000000	LOCKED
+IMpower131	H1_observed	113000000	563000000	SEED-IV-V1-20260731	base + replicate_id	base + replicate_id*10 + look_code	5	3	9	810000000	LOCKED
+KEYNOTE598	H0_null	121000000	611000000	SEED-IV-V1-20260731	base + replicate_id	base + replicate_id*10 + look_code	5	3	9	810000000	LOCKED
+KEYNOTE598	H1_calibration	122000000	612000000	SEED-IV-V1-20260731	base + replicate_id	base + replicate_id*10 + look_code	5	3	9	810000000	LOCKED
+KEYNOTE598	H1_observed	123000000	613000000	SEED-IV-V1-20260731	base + replicate_id	base + replicate_id*10 + look_code	5	3	9	810000000	LOCKED
+OAK	H0_null	131000000	661000000	SEED-IV-V1-20260731	base + replicate_id	base + replicate_id*10 + look_code	5	3	9	810000000	LOCKED
+OAK	H1_calibration	132000000	662000000	SEED-IV-V1-20260731	base + replicate_id	base + replicate_id*10 + look_code	5	3	9	810000000	LOCKED
+OAK	H1_observed	133000000	663000000	SEED-IV-V1-20260731	base + replicate_id	base + replicate_id*10 + look_code	5	3	9	810000000	LOCKED
+survival_colon	H0_null	141000000	711000000	SEED-IV-V1-20260731	base + replicate_id	base + replicate_id*10 + look_code	5	3	9	810000000	LOCKED
+survival_colon	H1_calibration	142000000	712000000	SEED-IV-V1-20260731	base + replicate_id	base + replicate_id*10 + look_code	5	3	9	810000000	LOCKED
+survival_colon	H1_observed	143000000	713000000	SEED-IV-V1-20260731	base + replicate_id	base + replicate_id*10 + look_code	5	3	9	810000000	LOCKED

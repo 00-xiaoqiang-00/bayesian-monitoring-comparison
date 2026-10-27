@@ -1,0 +1,5 @@
+case_key	N_max	n_40	n_50	n_60	n_80	n_final	look_code_40	look_code_50	look_code_60	look_code_80	look_code_final	c_F	gamma_E
+IMpower131	680	272	340	408	544	680	1	5	2	3	9	0.875	3.05
+KEYNOTE598	568	228	284	340	454	568	1	5	2	3	9	0.865	1.85
+OAK	850	340	425	510	680	850	1	5	2	3	9	0.875	3.40
+survival_colon	620	248	310	372	496	620	1	5	2	3	9	0.850	1.862
